@@ -16,7 +16,7 @@ def bfs():
     for i in range(n):
         for j in range(m):
             if virus_map[i][j] == 2:
-                queue.append((i,j))
+                queue.append((i, j))
 
     while queue:
         x, y = queue.popleft()
