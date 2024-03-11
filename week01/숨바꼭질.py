@@ -11,6 +11,7 @@ def bfs(num):
                 count[next_num] = count[num] + 1
                 queue.append(next_num)
 
+
 n, k = map(int, input().split())
 count = [0] * 100001
 print(bfs(n))
